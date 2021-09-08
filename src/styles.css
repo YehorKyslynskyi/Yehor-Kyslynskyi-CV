@@ -1,0 +1,527 @@
+.preload * {
+  transition: none !important;
+}
+.red-text{
+  color: red;
+  font-size: 10px;
+  font-family: 'Roboto100';
+}
+.green-text{
+  color: green;
+  font-size: 10px;
+  font-family: 'Roboto100';
+}
+.body-conainer{
+  width: 1200px;
+  margin: 0px auto;
+}
+body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  color: #252525;
+  line-height: 1.5;
+  text-align: justify;
+}
+.font-roboto-400{
+  font-size: 16px;
+  font-family: 'Roboto400';
+  font-weight: 400;
+  color: #515151;
+}
+
+
+h3{
+  padding-bottom: 17px;
+  color: #252525;
+  font-family: 'Lato400';
+  margin: 0;
+}
+p{
+  margin: 0;
+}
+
+hr{
+  margin-top: 30px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.hello, .skills, .education, .experience, .portfolio, .contact-me{
+  scroll-margin: 91px;
+}
+.header {
+  padding:0;
+  left: 0 auto;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  height: 90.91px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Lato400';
+  font-weight: 900;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.sticky {
+  position: fixed;
+  width: 200%;
+  left: 0 auto;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .hello {
+  padding-top: 130.91px;
+}
+
+
+.header .menu {
+    height: 90.91px;
+    width: 609.72px;
+ }
+
+.header .menu ul {
+    padding: 0;
+    margin: 0;
+    height: 90.91px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    list-style: none;
+    align-items: center;
+    
+ }
+
+ .header .menu ul li {
+    margin: 20px 15px;
+ }
+
+ .header .menu ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.66;
+    color: #252525;
+    
+ }
+
+ .header .menu ul a:hover{
+    transition:  0.5s;
+    color: #006EDE;
+ }
+
+.header .logo {
+  width: 200px;
+  padding-right: 351px;
+  height: 90.91px;
+}
+
+.hello, .skills, .education, .experience, .portfolio, .contact-me { 
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Roboto400';
+    color: #515151;
+    height: 439px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 0px 40px ;
+    border-bottom: 1px solid #E3E3E3;
+
+}
+.hello .info {
+    padding-right: 138px ;
+    width: 603px; 
+    line-height: 1.5;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-family: 'Lato700';
+    color: #252525;
+    font-size: 36px;
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+.hello .info .contacts{
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hello .info .contacts div {
+    font-size: 14px;
+    height: 20px;
+}
+
+.hello .info .contacts .contact-item{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+.hello .info .contacts .contact-item .contact-name{
+  width: 90px; 
+  font-family: 'Roboto500';
+}
+
+.social-icons ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+
+.social-icons ul li {
+  height: 20px;
+  padding-right: 20px ;
+}
+
+.hello .info .buttons{
+  padding-top: 45px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hello .info .buttons a, .portfolio .portfolio-info a, .form button{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 40px 10px 0px;
+  /* border-radius: 10px; */
+  font-family: 'Lato400';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #5b9ad8  0%, #006EDE 51%, #5b9ad8 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+
+.hello .info .buttons a:hover, .portfolio .portfolio-info a:hover, .form button:hover{
+  background-position: right center;
+}
+
+
+
+.hello .photo{
+    padding-right: 70px;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    /* border: 1px solid black; */
+}
+.hello .photo img{
+    border-radius: 2px;
+}
+
+.skills{
+  padding-bottom: 0;
+  height: 243px;
+  line-height: 1.5;
+}
+
+.skills .sidebar .title, .education .sidebar .title, .experience .sidebar .title, .portfolio .sidebar .title, .contact-me .sidebar .title {
+  font-size: 30px;
+}
+
+.sidebar {
+  padding-right: 20px;
+  height: 243px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills .sidebar img{
+  padding-bottom: 50px;
+  margin-top: auto;
+}
+
+.skills .skills-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 243px;
+  width: 800px;
+}
+
+.skills .skills-info div{
+  width: 370px;
+  height: 120px;
+  padding: 0px 15px;
+}
+
+.education{
+  height: 235px;
+}
+
+.education .sidebar{
+  height: 220px;
+}
+
+.education .sidebar img{
+  padding-bottom: 0px;
+  margin-top: auto;
+}
+
+.education .education-info{
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  width: 785px;
+}
+
+.experience{
+  height: 150px;
+}
+
+.experience .sidebar{
+  height: 150px;
+}
+
+.experience .sidebar img{
+  padding-bottom: 0px;
+  margin-top: auto;
+}
+
+.experience .experience-info{
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 785px;
+}
+
+.portfolio{
+  height: 150px;
+}
+
+.portfolio .sidebar{
+  height: 150px;
+}
+
+.portfolio .sidebar img{
+  padding-bottom: 0px;
+  margin-top: auto;
+}
+
+.portfolio .portfolio-info{
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 785px;
+}
+
+.portfolio .portfolio-info a{
+  padding: 7px 11px;
+  margin: 20px 20px 10px 0px;
+}
+
+.contact-me{
+  height: 240px;
+}
+
+.contact-me .sidebar{
+  height: 240px;
+}
+
+.contact-me .sidebar img{
+  padding-bottom: 0px;
+  margin-top: auto;
+}
+
+.contact-me .contact-me-info{
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 240px;
+  width: 785px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.form::after{
+  content: "";
+  position: absolute;
+  top: 110px;
+  left: 220px;
+  width: 80%;
+  height: 80%;
+  background:  url(../images/loading.gif) center / 30px no-repeat;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.form._sending::after{
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease 0s;
+}
+
+.input-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.input-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 42px;
+}
+
+.form-item, .form-message{
+  font-size: 14px;
+  font-family: 'Roboto400';
+  box-sizing: border-box;
+  width: 270px;
+  padding: 17px;
+  margin: 15px 0;
+  border: 2px solid #E3E3E3;
+}
+
+.form-item:active, .form-item:hover, .form-item:focus, .form-message:active, .form-message:hover, .form-message:focus {
+  transition:  0.5s; 
+  border: 2px solid #006EDE;
+}
+.form-message{
+  width: 470px;
+  padding: 17px 17px 96px 17px;
+}
+
+._error{
+  /* box-shadow: 0 0 15px red; */
+  border: 2px solid red;
+}
+.button-conainer{
+  width: 785px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button-conainer button{
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: auto;
+  border: none;
+  width: 200px;
+  padding: 15px 15px;
+  margin: 10px 1px;
+}
+
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:'Roboto400';
+  font-size: 14px;
+  height: 50px;
+  background-color:#E3E3E3 ;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'Lato100';
+    src: url('../fonts/lato/Lato-Thin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Lato300';
+    src: url('../fonts/lato/Lato-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Lato400';
+    src: url('../fonts/lato/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Lato700';
+    src: url('../fonts/lato/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Lato900';
+    src: url('../fonts/lato/Lato-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Roboto100';
+    src: url('../fonts/roboto/Roboto-Thin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Roboto300';
+    src: url('../fonts/roboto/Roboto-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Roboto400';
+    src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Roboto500';
+    src: url('../fonts/roboto/Roboto-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Roboto700';
+    src: url('../fonts/roboto/Roboto-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'Roboto900';
+    src: url('../fonts/roboto/Roboto-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+  

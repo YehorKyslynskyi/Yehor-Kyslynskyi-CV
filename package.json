@@ -1,0 +1,32 @@
+{
+  "name": "curriculum-vitae-web-application",
+  "version": "1.0.0",
+  "description": "Cutticulum vitae site for looking job ",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "css",
+    "CV"
+  ],
+  "author": "Yehor Kyslynskyi <kislinskiycr7@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "dependencies": {
+    "firebase": "^9.0.1"
+  }
+}
