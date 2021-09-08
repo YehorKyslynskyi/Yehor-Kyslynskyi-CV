@@ -309,15 +309,15 @@ hr{
 }
 
 .portfolio{
-  height: 150px;
+  height: 335px;
 }
 
 .portfolio .sidebar{
-  height: 150px;
+  height: 335px;
 }
 
 .portfolio .sidebar img{
-  padding-bottom: 0px;
+  padding-bottom: 0;
   margin-top: auto;
 }
 
@@ -325,7 +325,7 @@ hr{
   padding-left: 15px;
   display: flex;
   flex-direction: column;
-  height: 150px;
+  height: 335px;
   width: 785px;
 }
 
